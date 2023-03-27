@@ -1,6 +1,6 @@
 <?php
 namespace App;
-
+/* KR Random Comment */
 class Calculator
 {
     public function __construct($operator){
