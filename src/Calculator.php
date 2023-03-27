@@ -1,31 +1,11 @@
-<?php
+<?php declare(strict_types=1);
+
 namespace App;
-/* KR Random Comment */
+
 class Calculator
 {
-    public function __construct($operator){
-        $this->operator = $operator;
+    public function add(int $a, int $b): int
+    {
+        return $a + $b;
     }
-
-    public function evaluate($num1, $num2){
-        $func = $this->operator;
-        return $this->$func($num1, $num2);
-    }
-
-    public function add($num1, $num2){
-        return $num1 + $num2;
-    }
-
-    public function subtract($num1, $num2){
-        return $num1 - $num2;
-    }
-
-
-    public function multiply($num1, $num2){
-        return $num1 * $num2;
-    }
-
-
 }
-
-
