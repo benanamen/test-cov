@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 class CalculatorTest extends TestCase
 {
     /**
-     * @covers Calculator::add
+     * @covers \App\Calculator::add
      */
     public function testAdd(): void
     {
